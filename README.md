@@ -1,16 +1,25 @@
-## Hi there 👋
+# Hi, I'm Harsh 👋
 
-<!--
-**unfitcoder101/unfitcoder101** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Full-stack developer building production systems for startups.
 
-Here are some ideas to get you started:
+### 🚀 Featured Projects
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**StartupOS** — Internal ops automation platform
+GitHub + Sheets integrations, Slack alert engine, cron automation, email digests.
+[Live Demo](https://startupos-beta.vercel.app) · [Code](https://github.com/unfitcoder101/startupos)
+
+**CodeArena** — Competitive coding platform
+Docker-sandboxed code execution, submissions, analytics.
+[Code](https://github.com/unfitcoder101/codearena-backend.git)
+
+**Synthetic Oracle** — ML stock signal system
+XGBoost + Random Forest, 74% accuracy, 500+ symbols.
+[Code](https://github.com/unfitcoder101/ai-stock-analyzer-clean.git)
+
+### 🛠 Stack
+Node.js · Express · MongoDB · React · Tailwind · Python · Docker · REST APIs
+
+### 📫 Reach me
+[LinkedIn](https://www.linkedin.com/in/harshvardhan-kasliwal-675207229?utm_source=share_via&utm_content=profile&utm_medium=member_android) · [Twitter](https://x.com/unfitcoder)
+
+Open to remote backend / full-stack internships.
