@@ -10,7 +10,7 @@ GitHub + Sheets integrations, Slack alert engine, cron automation, email digests
 
 **CodeArena** — Competitive coding platform
 Docker-sandboxed code execution, submissions, analytics.
-[[Live Demo](https://codearena-frontend-lovat.vercel.app/) · [Code](https://github.com/unfitcoder101/codearena-backend.git)
+[Live Demo](https://codearena-frontend-lovat.vercel.app/) · [Code](https://github.com/unfitcoder101/codearena-backend.git)
 
 **Synthetic Oracle** — ML stock signal system
 XGBoost + Random Forest, 74% accuracy, 500+ symbols.
