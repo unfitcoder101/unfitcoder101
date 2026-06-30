@@ -1,4 +1,4 @@
-# Hi, I'm Harsh 👋
+# Hi, I'm Harshvardhan 👋
 
 Full-stack developer building production systems for startups.
 
