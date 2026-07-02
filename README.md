@@ -16,7 +16,7 @@ Docker-sandboxed code execution, submissions, analytics.
 XGBoost + Random Forest, 74% accuracy, 500+ symbols.
 [Code](https://github.com/unfitcoder101/ai-stock-analyzer-clean.git)
 
-### 🛠 Stack
+### 🛠 Stack   
 Node.js · Express · MongoDB · React · Tailwind · Python · Docker · REST APIs
 
 ### 📫 Reach me
