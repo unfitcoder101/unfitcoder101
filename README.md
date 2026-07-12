@@ -22,4 +22,4 @@ Node.js · Express · MongoDB · React · Tailwind · Python · Docker · REST A
 ### 📫 Reach me
 [LinkedIn](https://www.linkedin.com/in/harshvardhan-kasliwal-675207229?utm_source=share_via&utm_content=profile&utm_medium=member_android) · [Twitter](https://x.com/unfitcoder)
 
-Open to remote backend / full-stack internships.
+Open to remote Backend / Full-stack internships.
