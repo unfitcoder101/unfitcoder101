@@ -11,9 +11,9 @@ MCA @ NIT Jamshedpur.
 
 | Repo | Stars | What I fixed |
 |------|-------|-------------|
-| Agenta (LLMOps) | 4.2k★ | Breadcrumb label bug + trace exception display |
+| Agenta (LLMOps) | 4.2k ★ | Breadcrumb label bug + trace exception display |
 | TraceRoot (Observability) | — | BYOK error normalization across 8 API providers |
-| LiteLLM (LLM Gateway) | 26k★ | Bedrock guardrail ModelResponse bypass (in review) |
+| LiteLLM (LLM Gateway) | 26k ★ | Bedrock guardrail ModelResponse bypass (in review) |
 
 ---
 
