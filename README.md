@@ -1,23 +1,30 @@
-# Harshvardhan Kasliwal
+<h1>
+Harshvardhan Kasliwal
+</h1>
 
-![GitHub Stars](https://img.shields.io/github/stars/unfitcoder101?style=flat-square)
-![Open Source](https://img.shields.io/badge/OSS-3%20merged%20%7C%208%2B%20in%20review-brightgreen?style=flat-square)
-![DSA](https://img.shields.io/badge/LeetCode-300%2B%20solved-orange?style=flat-square)
+<p>
+<strong>Backend & AI Infrastructure Engineer</strong> — I fix production reliability bugs in LLMOps codebases before anyone asks me to.
+</p>
 
-Backend + AI infrastructure engineer. 3 merged PRs in production LLMOps codebases (YC-backed startups, 26k★ repos). MCA @ NIT Jamshedpur.
+<img src="https://img.shields.io/badge/OSS-3%20merged%20%C2%B7%208%2B%20in%20review-2ea44f?style=for-the-badge" />
+<img src="https://img.shields.io/badge/LeetCode-300%2B%20solved-orange?style=for-the-badge" />
+<img src="https://img.shields.io/badge/MCA-NIT%20Jamshedpur-blue?style=for-the-badge" />
 
-🔨 Currently: shipping fixes across LiteLLM, Agenta, and TraceRoot — routing bugs, security CVEs, and schema/tool-call reliability issues in active production codebases.
+---
+
+3 merged PRs across production LLMOps codebases at YC-backed startups (26k★ repos). I find bugs nobody's reported yet, verify root cause before touching code, and ship fixes maintainers don't have to rewrite.
+
+🔨 **Right now:** shipping fixes across LiteLLM, Agenta, and TraceRoot — router retry logic, schema validation gaps affecting 26+ models, tool-call ID sanitization, and 2 dependency CVEs.
 
 ---
 
 ## Open Source
 
-| Repo | Stars | What I fixed |
+| Repo | Scale | What I actually fixed |
 |---|---|---|
-| Agenta (LLMOps) | 4.2k★ | Breadcrumb label bug + trace exception display |
-| TraceRoot (Observability) | — | BYOK error normalization across 8 API providers |
-| LiteLLM (LLM Gateway) | 26k★ | Bedrock guardrail ModelResponse bypass, Bedrock tool_call ID length/sanitization, Databricks response-schema metadata (26 models), Router Retry-After handling, spend-counter reseed security fix, postcss/gitpython CVE patches — 8+ PRs across proxy, router, and schema layers |
-
+| **LiteLLM** (LLM Gateway) | 26k★ | Audited 28 Databricks model configs, found 26 silently missing schema validation — fixed provider-wide, not patched one model. Also: Bedrock tool-call IDs breaking multi-turn conversations, Router discarding provider backoff signals, a live budget-bypass bug in spend tracking, 2 CVE patches. |
+| **Agenta** (LLMOps, YC) | 4.2k★ | Breadcrumb routing bug + trace exception display fix |
+| **TraceRoot** (Observability) | — | Normalized error handling across 8 different API providers — survived 6 rounds of maintainer review before merge |
 
 ---
 
@@ -45,9 +52,15 @@ Docker · TypeScript · REST APIs · JWT · XGBoost
 
 ---
 
+## Stats
+
+<img src="https://github-readme-stats.vercel.app/api?username=unfitcoder101&show_icons=true&theme=default&hide_border=true&count_private=true" />
+
+---
+
 ## Contact
 [LinkedIn](https://linkedin.com/in/harshvardhan-kasliwal-675207229) · 
 [Twitter](https://x.com/unfitcoder) · 
 [GitHub](https://github.com/unfitcoder101)
 
-Open to remote backend / AI infra roles.
+📩 Open to remote backend / AI infra roles.
