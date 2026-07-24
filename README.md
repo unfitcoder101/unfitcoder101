@@ -13,10 +13,11 @@ Backend + AI infrastructure engineer. 3 merged PRs in production LLMOps codebase
 ## Open Source
 
 | Repo | Stars | What I fixed |
-|------|-------|-------------|
-| Agenta (LLMOps) | 4.2k ★ | Breadcrumb label bug + trace exception display |
+|---|---|---|
+| Agenta (LLMOps) | 4.2k★ | Breadcrumb label bug + trace exception display |
 | TraceRoot (Observability) | — | BYOK error normalization across 8 API providers |
-| LiteLLM (LLM Gateway) | 26k ★ | Bedrock guardrail ModelResponse bypass (in review) |
+| LiteLLM (LLM Gateway) | 26k★ | Bedrock guardrail ModelResponse bypass, Bedrock tool_call ID length/sanitization, Databricks response-schema metadata (26 models), Router Retry-After handling, spend-counter reseed security fix, postcss/gitpython CVE patches — 8+ PRs across proxy, router, and schema layers |
+
 
 ---
 
