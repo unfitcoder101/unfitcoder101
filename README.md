@@ -1,9 +1,12 @@
 # Harshvardhan Kasliwal
 
-Backend + AI infrastructure engineer. 
-3 merged PRs in production LLMOps codebases 
-(YC-backed startups, 26k★ repos).
-MCA @ NIT Jamshedpur.
+![GitHub Stars](https://img.shields.io/github/stars/unfitcoder101?style=flat-square)
+![Open Source](https://img.shields.io/badge/OSS-3%20merged%20%7C%208%2B%20in%20review-brightgreen?style=flat-square)
+![DSA](https://img.shields.io/badge/LeetCode-300%2B%20solved-orange?style=flat-square)
+
+Backend + AI infrastructure engineer. 3 merged PRs in production LLMOps codebases (YC-backed startups, 26k★ repos). MCA @ NIT Jamshedpur.
+
+🔨 Currently: shipping fixes across LiteLLM, Agenta, and TraceRoot — routing bugs, security CVEs, and schema/tool-call reliability issues in active production codebases.
 
 ---
 
