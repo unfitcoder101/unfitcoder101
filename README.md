@@ -22,7 +22,7 @@
 |---|---|---|
 | **LiteLLM** (LLM Gateway) | 26k★ | Audited 28 Databricks model configs, found 26 silently missing schema validation — fixed provider-wide, not patched one model. Also: Bedrock tool-call IDs breaking multi-turn conversations, Router discarding provider backoff signals, a live budget-bypass bug in spend tracking, 2 CVE patches. |
 | **Agenta** (LLMOps, YC) | 4.2k★ | Breadcrumb routing bug + trace exception display fix |
-| **TraceRoot** (Observability) | — | Normalized error handling across 8 different API providers — survived 6 rounds of maintainer review before merge |
+| **TraceRoot** (Observability) | 341★ | Normalized error handling across 8 different API providers — survived 6 rounds of maintainer review before merge |
 
 ---
 
