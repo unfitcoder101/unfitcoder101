@@ -1,14 +1,12 @@
-<h1>
-Harshvardhan Kasliwal
-</h1>
-
-<p>
-<strong>Backend & AI Infrastructure Engineer</strong> — I fix production reliability bugs in LLMOps codebases before anyone asks me to.
-</p>
+# Harshvardhan Kasliwal
 
 <img src="https://img.shields.io/badge/OSS-3%20merged%20%C2%B7%208%2B%20in%20review-2ea44f?style=for-the-badge" />
 <img src="https://img.shields.io/badge/LeetCode-300%2B%20solved-orange?style=for-the-badge" />
 <img src="https://img.shields.io/badge/MCA-NIT%20Jamshedpur-blue?style=for-the-badge" />
+
+3 merged PRs across production LLMOps codebases at YC-backed startups (26k★ repos). I verify root cause before touching code, and ship fixes maintainers don't have to rewrite.
+
+🔨 **Right now:** shipping fixes across LiteLLM, Agenta, and TraceRoot — router retry logic, schema validation gaps affecting 26+ models, tool-call ID sanitization, and 2 dependency CVEs.
 
 ---
 
@@ -49,12 +47,6 @@ rule-based alert engine, multi-tenant JWT auth.
 ## Stack
 Node.js · Express · MongoDB · React · Python · FastAPI · 
 Docker · TypeScript · REST APIs · JWT · XGBoost
-
----
-
-## Stats
-
-<img src="https://github-readme-stats.vercel.app/api?username=unfitcoder101&show_icons=true&theme=default&hide_border=true&count_private=true" />
 
 ---
 
