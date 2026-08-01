@@ -4,7 +4,7 @@
 <img src="https://img.shields.io/badge/LeetCode-300%2B%20solved-orange?style=for-the-badge" />
 <img src="https://img.shields.io/badge/MCA-NIT%20Jamshedpur-blue?style=for-the-badge" />
 
-3 merged PRs across production LLMOps codebases at YC-backed startups (26k★ repos). I verify root cause before touching code, and ship fixes maintainers don't have to rewrite.
+3 merged PRs across production LLMOps codebases at YC-backed startups (26k★ repos). I verify root cause before touching code, and ship fixes maintainers don't have to rewrite.              
 
 🔨 **Right now:** shipping fixes across LiteLLM, Agenta, and TraceRoot — router retry logic, schema validation gaps affecting 26+ models, tool-call ID sanitization, and 2 dependency CVEs.        
 
