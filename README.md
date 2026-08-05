@@ -8,7 +8,7 @@
 
 🔨 **Right now:** shipping fixes across LiteLLM, Agenta, and TraceRoot — router retry logic, schema validation gaps affecting 26+ models, tool-call ID sanitization, and 2 dependency CVEs.        
 
----
+---                   
                              
 ## Open Source
 
