@@ -37,13 +37,13 @@ rule-based alert engine, multi-tenant JWT auth.
 [Live](https://startupos-beta.vercel.app) · [Code](https://github.com/unfitcoder101/startupos)
                     
 ---
-
+                               
 ## Stack
 Node.js · Express · MongoDB · React · Python · FastAPI · 
 Docker · TypeScript · REST APIs · JWT · XGBoost
 
 ---
-
+                       
 ## Contact
 [LinkedIn](https://linkedin.com/in/harshvardhan-kasliwal-675207229) · 
 [Twitter](https://x.com/unfitcoder) · 
