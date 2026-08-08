@@ -1,6 +1,6 @@
 # Harshvardhan Kasliwal                      
 
-<img src="https://img.shields.io/badge/OSS-3%20merged%20%C2%B7%208%2B%20in%20review-2ea44f?style=for-the-badge" />
+<img src="https://img.shields.io/badge/OSS-4%20merged%20%C2%B7%208%2B%20in%20review-2ea44f?style=for-the-badge" />
 <img src="https://img.shields.io/badge/LeetCode-300%2B%20solved-orange?style=for-the-badge" />
 <img src="https://img.shields.io/badge/MCA-NIT%20Jamshedpur-blue?style=for-the-badge" />
 
