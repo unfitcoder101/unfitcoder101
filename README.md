@@ -43,10 +43,11 @@ Node.js · Express · MongoDB · React · Python · FastAPI ·
 Docker · TypeScript · REST APIs · JWT · XGBoost
 
 ---
-                               
-## Contact
+                                                
+## Contact                           
 [LinkedIn](https://linkedin.com/in/harshvardhan-kasliwal-675207229) ·
 [Twitter](https://x.com/unfitcoder) ·
 [GitHub](https://github.com/unfitcoder101)
-                  
+                                     
 📩 Open to remote backend / AI infra roles.
+                              
