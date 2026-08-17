@@ -42,7 +42,7 @@ rule-based alert engine, multi-tenant JWT auth.
 Node.js · Express · MongoDB · React · Python · FastAPI ·
 Docker · TypeScript · REST APIs · JWT · XGBoost
 
----
+---                                 
                                                 
 ## Contact                           
 [LinkedIn](https://linkedin.com/in/harshvardhan-kasliwal-675207229) ·
@@ -50,4 +50,3 @@ Docker · TypeScript · REST APIs · JWT · XGBoost
 [GitHub](https://github.com/unfitcoder101)
                                      
 📩 Open to remote backend / AI infra roles.
-                              
