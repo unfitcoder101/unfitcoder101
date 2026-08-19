@@ -26,11 +26,11 @@
 XGBoost + RF + 4 more models, 74% accuracy, 542 NSE stocks,
 13-layer decision engine, SHAP explainability, Groq LLM analysis.
 [Live](https://stock-advisor-here.netlify.app) · [Code](https://github.com/unfitcoder101/ai-stock-analyzer-clean)
-
+                     
 **CodeArena** — Docker-sandboxed coding platform
 Judge0 execution, real-time submissions, AI code review via Groq/Llama.
 [Live](https://codearena-frontend-lovat.vercel.app) · [Code](https://github.com/unfitcoder101/codearena-backend)
-
+                   
 **StartupOS** — Ops automation dashboard
 GitHub API + Google Sheets + Slack webhooks,
 rule-based alert engine, multi-tenant JWT auth.
