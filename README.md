@@ -8,7 +8,7 @@
                
 🔨 **Right now:** shipping fixes across LiteLLM, Agenta, TraceRoot, and Mastra — router retry logic, schema validation gaps affecting 26+ models, tool-call ID sanitization, a router→provider media-loss bug (independently confirmed by Mastra's own triage bot), and 2 dependency CVEs.
 
----                 
+---                                                                                      
                       
 ## Open Source
                          
