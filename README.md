@@ -29,14 +29,14 @@ XGBoost + RF + 4 more models, 74% accuracy, 542 NSE stocks,
                      
 **CodeArena** — Docker-sandboxed coding platform
 Judge0 execution, real-time submissions, AI code review via Groq/Llama.
-[Live](https://codearena-frontend-lovat.vercel.app) · [Code](https://github.com/unfitcoder101/codearena-backend)
-                   
+[Live](https://codearena-frontend-lovat.vercel.app) · [Code]                  (https://github.com/unfitcoder101/codearena-backend)
+                                        
 **StartupOS** — Ops automation dashboard
 GitHub API + Google Sheets + Slack webhooks,
 rule-based alert engine, multi-tenant JWT auth.
 [Live](https://startupos-beta.vercel.app) · [Code](https://github.com/unfitcoder101/startupos)
 
----
+---                       
 
 ## Stack
 Node.js · Express · MongoDB · React · Python · FastAPI ·
