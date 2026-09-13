@@ -5,13 +5,13 @@
 <img src="https://img.shields.io/badge/MCA-NIT%20Jamshedpur-blue?style=for-the-badge" />
                                 
 4 merged PRs across production LLMOps and agent-framework codebases at YC-backed startups and high-traffic open-source projects (27k★+ combined). I verify root cause before touching code, and ship fixes maintainers don't have to rewrite.
-                              
+                                                          
 🔨 **Right now:** shipping fixes across LiteLLM, Agenta, TraceRoot, and Mastra — router retry logic, schema validation gaps affecting 26+ models, tool-call ID sanitization, a router→provider media-loss bug (independently confirmed by Mastra's own triage bot), and 2 dependency CVEs.
 
 ---                                                                                      
                       
-## Open Source              
-                         
+## Open Source                                           
+                                            
 | Repo | Scale | What I actually fixed |
 |---|---|---|
 | **LiteLLM** (LLM Gateway) | 26k★ | Audited 28 Databricks model configs, found 26 silently missing schema validation — fixed provider-wide, not patched one model. Also: Bedrock tool-call IDs breaking multi-turn conversations, Router discarding provider backoff signals, a live budget-bypass bug in spend tracking, 2 CVE patches. |
@@ -42,11 +42,11 @@ rule-based alert engine, multi-tenant JWT auth.
 Node.js · Express · MongoDB · React · Python · FastAPI ·
 Docker · TypeScript · REST APIs · JWT · XGBoost                 
                   
----                                                                            
-                                                                                   
+---                                                                                                               
+                                                                                                                
 ## Contact                           
 [LinkedIn](https://linkedin.com/in/harshvardhan-kasliwal-675207229) ·
 [Twitter](https://x.com/unfitcoder) ·
 [GitHub](https://github.com/unfitcoder101)
                                      
-📩 Open to remote backend / AI infra roles.
+📩 Open to remote backend / AI infra roles.                        
