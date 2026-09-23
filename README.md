@@ -16,7 +16,7 @@
 |---|---|---|
 | **LiteLLM** (LLM Gateway) | 59.5k★ | Audited 28 Databricks model configs, found 26 silently missing schema validation — fixed provider-wide, not patched one model. Also: Bedrock tool-call IDs breaking multi-turn conversations, Router discarding provider backoff signals, a live budget-bypass bug in spend tracking, 2 CVE patches. |
 | **Mastra** (Agent Framework) | 28.3k★ | Removed leaked internal sub-agent reporting instructions from BUILD/Explore mode prompts (merged). Fixed a race condition dropping voice-dictation transcripts on normal stop (merged). Also: a router-adapter bug silently dropping image/media tool-results when routed to newer providers — root cause independently confirmed by the project's own automated triage system, with a fix that includes both adapter-level and full router-dispatch regression tests (in review). |
-| **Agenta** (LLMOps, YC) | 4.8k★ | Breadcrumb routing bug + trace exception display fix |
+| **Agenta** (LLMOps, YC) | 4.8k★ | Breadcrumb routing bug + trace exception display fix. Also built a RAG chatbot example (LangChain LCEL + vector retrieval + Agenta tracing), live at agenta-ai-examples.vercel.app. |
 | **TraceRoot** (Observability) | 777★ | Normalized error handling across 8 different API providers — survived 6 rounds of maintainer review before merge |
 
 ---
