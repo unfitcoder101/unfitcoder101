@@ -4,7 +4,7 @@
 <img src="https://img.shields.io/badge/LeetCode-360%2B%20solved-orange?style=for-the-badge" />
 <img src="https://img.shields.io/badge/MCA-NIT%20Jamshedpur-blue?style=for-the-badge" />
 
-5 merged PRs across production LLMOps and agent-framework codebases at YC-backed startups and high-traffic open-source projects (28k★+ combined). I verify root cause before touching code, and ship fixes maintainers don't have to rewrite.
+6 merged PRs across production LLMOps and agent-framework codebases at YC-backed startups and high-traffic open-source projects (28k★+ combined). I verify root cause before touching code, and ship fixes maintainers don't have to rewrite.
 
 🔨 **Right now:** shipping fixes across LiteLLM, Agenta, TraceRoot, and Mastra — router retry logic, schema validation gaps affecting 26+ models, tool-call ID sanitization, a router→provider media-loss bug (independently confirmed by Mastra's own triage bot), and 2 dependency CVEs.
 
