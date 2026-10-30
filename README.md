@@ -4,9 +4,9 @@
 <img src="https://img.shields.io/badge/DSA-350%2B%20solved-orange?style=for-the-badge" />
 <img src="https://img.shields.io/badge/MCA-NIT%20Jamshedpur-blue?style=for-the-badge" />
 
-6 merged PRs across production LLMOps and agent-framework codebases at YC-backed startups and high-traffic open-source projects (28k★+ combined). I verify root cause before touching code, and ship fixes maintainers don't have to rewrite.
+6 merged PRs across LLMOps and agent-framework codebases, including Agenta (YC) and Mastra (97k★+ combined across the repos below). I verify root cause before touching code, and ship fixes maintainers don't have to rewrite.
 
-🔨 **Right now:** shipping fixes across LiteLLM, Agenta, TraceRoot, and Mastra — router retry logic, schema validation gaps affecting 26+ models, tool-call ID sanitization, a router→provider media-loss bug (independently confirmed by Mastra's own triage bot), and 2 dependency CVEs.
+🔨 **Right now:** 2 fixes in review: blocking `eval()` on untrusted frontmatter in Mastra's deployer ([#27066](https://github.com/mastra-ai/mastra/pull/27066)), and a Redis streams worker in Agenta that hung forever on a silent connection ([#7587](https://github.com/Agenta-AI/agenta/pull/7587)). Also open: LiteLLM router and provider fixes, and a Mastra media-loss bug confirmed by the project's own triage bot.
 
 ---
 
@@ -14,10 +14,10 @@
 
 | Repo | Scale | What I actually fixed |
 |---|---|---|
-| **LiteLLM** (LLM Gateway) | 62.1k★ | Audited 28 Databricks model configs, found 26 silently missing schema validation — fixed provider-wide, not patched one model. Also: Bedrock tool-call IDs breaking multi-turn conversations, Router discarding provider backoff signals, a live budget-bypass bug in spend tracking, 2 CVE patches. |
-| **Mastra** (Agent Framework) | 29.1k★ | Removed leaked internal sub-agent reporting instructions from BUILD/Explore mode prompts (merged). Fixed a race condition dropping voice-dictation transcripts on normal stop (merged). Also: a router-adapter bug silently dropping image/media tool-results when routed to newer providers — root cause independently confirmed by the project's own automated triage system, with a fix that includes both adapter-level and full router-dispatch regression tests (in review). |
-| **Agenta** (LLMOps, YC) | 4.9k★ | Breadcrumb routing bug + trace exception display fix. Also built a RAG chatbot example (LangChain LCEL + vector retrieval + Agenta tracing), live at agenta-ai-examples.vercel.app. |
-| **TraceRoot** (Observability) | 1k★ | Normalized error handling across 8 different API providers — survived 6 rounds of maintainer review before merge |
+| **LiteLLM** (LLM Gateway) | 62.1k★ | *In review:* audited 28 Databricks model configs, found 26 silently missing schema validation, and fixed it provider-wide instead of patching one model. Also in review: Bedrock tool-call IDs breaking multi-turn conversations, Router discarding provider backoff signals, a budget-bypass bug in spend tracking, and 2 CVE patches. |
+| **Mastra** (Agent Framework) | 29.1k★ | *Merged:* removed leaked sub-agent reporting instructions from BUILD/Explore mode prompts ([#24862](https://github.com/mastra-ai/mastra/pull/24862)); fixed dictation transcripts being dropped on normal stop in the React client ([#20016](https://github.com/mastra-ai/mastra/pull/20016)). *In review:* blocked `eval()` on `---js` frontmatter in the deployer ([#27066](https://github.com/mastra-ai/mastra/pull/27066)); a router-adapter bug silently dropping image/media tool-results, root cause confirmed by the project's own triage bot, with adapter-level and full router-dispatch regression tests. |
+| **Agenta** (LLMOps, YC) | 4.9k★ | *Merged:* JSON Diff evaluator silently ignoring `case_insensitive_keys` for any key with uppercase characters ([#7161](https://github.com/Agenta-AI/agenta/pull/7161)); trace output column now shows the exception message when outputs is null ([#4747](https://github.com/Agenta-AI/agenta/pull/4747)); correct breadcrumb label for SDK evals ([#4619](https://github.com/Agenta-AI/agenta/pull/4619)). *In review:* Redis streams worker that hung forever on a silent connection, timeout and health check added ([#7587](https://github.com/Agenta-AI/agenta/pull/7587)). Also built a RAG chatbot example (LangChain LCEL + vector retrieval + Agenta tracing), live at agenta-ai-examples.vercel.app. |
+| **TraceRoot** (Observability) | 1k★ | *Merged:* improved how errors are displayed when testing a bring-your-own-key connection ([#1426](https://github.com/traceroot-ai/traceroot/pull/1426)). |
 
 ---
 
