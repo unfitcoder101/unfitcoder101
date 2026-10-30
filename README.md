@@ -39,11 +39,16 @@ rule-based alert engine, multi-tenant JWT auth.
 ---
 
 ## Stack
-**Languages:** Python · C++ · TypeScript · JavaScript · SQL
+**Languages:** Python · C++ · TypeScript · JavaScript · SQL      
+
 **Backend:** FastAPI · Node.js · Express · asyncio · REST APIs · JWT
+
 **Data & infra:** MongoDB · PostgreSQL · Redis (Streams) · Docker
+
 **AI / ML:** LangChain · LiteLLM · XGBoost · scikit-learn · SHAP · Groq (Llama)
+
 **Testing & tooling:** pytest · Vitest · Ruff · Git · GitHub · uv · pnpm
+
 **Frontend & deployment:** React · Vercel · Netlify
 
 ---
