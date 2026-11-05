@@ -2,10 +2,10 @@
 
 <img src="https://img.shields.io/badge/OSS-7%20merged%20%C2%B7%2010%20in%20review-2ea44f?style=for-the-badge" />
 <img src="https://img.shields.io/badge/DSA-350%2B%20solved-orange?style=for-the-badge" />
-<img src="https://img.shields.io/badge/MCA-NIT%20Jamshedpur-blue?style=for-the-badge" />
+<img src="https://img.shields.io/badge/MCA-NIT%20Jamshedpur-blue?style=for-the-badge" />            
 
 7 merged PRs across LLMOps and agent-framework codebases, including Agenta (YC) and Mastra (97k★+ combined across the repos below). I verify root cause before touching code, and ship fixes maintainers don't have to rewrite.
-
+            
 🔨 **Right now:** 10 PRs in review. LiteLLM router and proxy work: cooling down deployments on stream-fetch failure ([#42815](https://github.com/BerriAI/litellm/pull/42815)), an opt-in flag to honor `Retry-After` across multiple deployments ([#34408](https://github.com/BerriAI/litellm/pull/34408)), capping upstream error bodies at 64 KB ([#34392](https://github.com/BerriAI/litellm/pull/34392)). Plus a Redis streams worker fix in Agenta ([#7587](https://github.com/Agenta-AI/agenta/pull/7587)).
 
 ---
